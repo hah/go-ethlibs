@@ -2,7 +2,8 @@ package eth
 
 import (
 	"bytes"
-	"encoding/json"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 )

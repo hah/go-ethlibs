@@ -1,8 +1,9 @@
 package eth
 
 import (
-	"encoding/json"
 	"strings"
+
+	"github.com/segmentio/encoding/json"
 )
 
 type NewHeadsNotificationParams struct {

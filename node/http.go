@@ -3,12 +3,13 @@ package node
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"sync"
 	"time"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/INFURA/go-ethlibs/jsonrpc"
 	"github.com/pkg/errors"

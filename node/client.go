@@ -3,8 +3,9 @@ package node
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"net/url"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 

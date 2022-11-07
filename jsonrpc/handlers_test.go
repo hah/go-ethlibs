@@ -2,11 +2,12 @@ package jsonrpc
 
 import (
 	"bytes"
-	"encoding/json"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/stretchr/testify/assert"
 )

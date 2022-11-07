@@ -1,7 +1,7 @@
 package eth
 
 import (
-	"encoding/json"
+	"github.com/segmentio/encoding/json"
 )
 
 type Block struct {

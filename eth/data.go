@@ -2,8 +2,9 @@ package eth
 
 import (
 	"encoding/hex"
-	"encoding/json"
 	"strings"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"

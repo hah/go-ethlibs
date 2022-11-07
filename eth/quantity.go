@@ -2,10 +2,11 @@ package eth
 
 import (
 	"encoding/hex"
-	"encoding/json"
 	"fmt"
 	"math/big"
 	"strings"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 

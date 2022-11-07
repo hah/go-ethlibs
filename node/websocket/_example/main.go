@@ -2,13 +2,14 @@ package main
 
 import (
 	"context"
-	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/INFURA/go-ethlibs/eth"
 	"github.com/INFURA/go-ethlibs/node/websocket"

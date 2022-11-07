@@ -1,10 +1,11 @@
 package eth
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
 	"strings"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/INFURA/go-ethlibs/rlp"
 )

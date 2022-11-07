@@ -4,8 +4,9 @@ package websocket
 
 import (
 	"context"
-	"encoding/json"
 	"sync"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 

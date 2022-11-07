@@ -1,8 +1,9 @@
 package jsonrpc
 
 import (
-	"encoding/json"
 	"strconv"
+
+	"github.com/segmentio/encoding/json"
 )
 
 // ID represents a JSON-RPC 2.0 request ID, which may be either a

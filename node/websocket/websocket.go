@@ -10,13 +10,14 @@ package websocket
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"io/ioutil"
 	"log"
 	"math/rand"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/gorilla/websocket"
 	"github.com/pkg/errors"

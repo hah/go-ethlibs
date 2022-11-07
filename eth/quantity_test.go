@@ -1,10 +1,11 @@
 package eth_test
 
 import (
-	"encoding/json"
 	"math/big"
 	"sync"
 	"testing"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/stretchr/testify/require"
 

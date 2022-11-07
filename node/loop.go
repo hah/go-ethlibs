@@ -3,13 +3,14 @@ package node
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"fmt"
 	"log"
 	"math/rand"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/segmentio/encoding/json"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
